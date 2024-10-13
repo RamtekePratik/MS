@@ -26,7 +26,8 @@ public class AsyncTaskScheduler {
 
     public void run() {
         try {
-            LOGGER.debug("Thread pool running with : " + Thread.currentThread().getName());
+            LOGGER.debug("Thread pool running with : " + Thread.currentThread().getName()+" and will go to sleep");
+            LOGGER.debug("Thread : " + Thread.currentThread().getName()+" going to sleep");
             Thread.sleep(2000);
         }
         catch(InterruptedException ie)
