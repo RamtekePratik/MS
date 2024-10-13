@@ -1,0 +1,1 @@
+INSERT INTO employee (department, email, name) VALUES ('CSE', 'pratikRM@mail.com', 'Pratik',"ASIA");
